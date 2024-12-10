@@ -12,8 +12,9 @@ public:
 	Menu();
 	~Menu();
 
-	// more functions..
-
+	static void printMenu();
+	static void printMenuOption0();
+	static void printMenuOption1();
 private: 
 	Canvas _canvas;
 };

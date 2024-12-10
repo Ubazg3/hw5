@@ -8,11 +8,12 @@ class Triangle : public Polygon
 public:
 
 	// Constructor
-	Triangle(Point a, Point b, Point c, std::string type, std::string name);
+	Triangle(const Point& a, const Point& b, const Point& c, std::string type, std::string name);
 
 	// Destructor
 	~Triangle();
 	double getArea();
-	virtual void draw(const Canvas& canvas);
-	virtual void clearDraw(const Canvas& canvas);
+	void move(Point p);
+	void draw(const Canvas& canvas);
+	void clearDraw(const Canvas& canvas);
 };

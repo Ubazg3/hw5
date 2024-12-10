@@ -18,7 +18,7 @@ public:
 	std::vector<Point> getPoints();
 
 	double getPerimeter();
-	virtual double move();
+	void move(Point& p);
 	// override methods if need (virtual + pure virtual)
 
 protected:

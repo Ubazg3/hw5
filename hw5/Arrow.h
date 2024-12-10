@@ -17,7 +17,7 @@ public:
 
 	double getArea();
 	double getPerimeter();
-	void move(Point other); // add the Point coordinates to all the points coordinates in the shape
+	void move(Point p); // add the Point coordinates to all the points coordinates in the shape
 
 
 private:

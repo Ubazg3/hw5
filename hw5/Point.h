@@ -21,7 +21,7 @@ public:
 	double getY() const;
 
 	// Methods
-	double distance(Point& other);
+	virtual double distance(Point& other);
 
 private:
 

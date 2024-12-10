@@ -17,13 +17,14 @@ namespace myShapes
 
 		// Constructor
 		// There's a need only for the top left corner 
-		Rectangle(Point a, double length, double width, std::string type, std::string name);
+		Rectangle(Point& a, double length, double width, std::string type, std::string name);
 
 		// Destructor
 		~Rectangle();
 		double getArea();
-		virtual void draw(const Canvas& canvas);
-		virtual void clearDraw(const Canvas& canvas);
+		void move(Point p);
+		void draw(const Canvas& canvas);
+		void clearDraw(const Canvas& canvas);
 
 	private:
 	

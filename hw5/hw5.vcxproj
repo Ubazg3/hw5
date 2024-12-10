@@ -130,7 +130,6 @@
     <ClCompile Include="Arrow.cpp" />
     <ClCompile Include="Canvas.cpp" />
     <ClCompile Include="Circle.cpp" />
-    <ClCompile Include="hw5.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Point.cpp" />
